@@ -1,0 +1,2 @@
+-- İlk isminde Nick, Ed ve Jennifer adları bulunan aktörlerin adını ve soyadını gösterin.
+SELECT first_name, last_name FROM actor WHERE first_name='Nick' or first_name='Ed' or first_name='Jennifer';
